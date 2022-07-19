@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Food
   - Fam_ground
+  - ground
+  - Hove_Ps
   layers:
   - Default
   - TransparentFX
