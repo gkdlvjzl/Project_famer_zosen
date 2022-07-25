@@ -19,6 +19,8 @@ public class Hover : MonoBehaviour
         {
             Hove.Play();
             GameObject obj = Instantiate(Fam_Ground, this.transform.position, Quaternion.LookRotation(this.transform.forward));
+
+            Destroy(obj, 3f);
         }
     }
 }
